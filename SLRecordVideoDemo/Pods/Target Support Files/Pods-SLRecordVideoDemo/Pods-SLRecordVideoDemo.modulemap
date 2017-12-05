@@ -1,0 +1,6 @@
+framework module Pods_SLRecordVideoDemo {
+  umbrella header "Pods-SLRecordVideoDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

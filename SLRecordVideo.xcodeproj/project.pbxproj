@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		607543B72983219B06D0E8C7 /* Pods_SLRecordVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E9E5F59CF6239E19903486 /* Pods_SLRecordVideo.framework */; };
+		FDD6BE0E1FC7B65500C023FA /* SLRecordVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD6BE0C1FC7B65500C023FA /* SLRecordVideo.h */; };
+		FDD6BE151FC7B67500C023FA /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FDD6BE141FC7B67500C023FA /* Podfile */; };
+		FDD6BE331FC7BD8700C023FA /* SLRecordVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD6BE311FC7BD8700C023FA /* SLRecordVideoViewController.m */; };
+		FDD6BE341FC7BD8700C023FA /* SLRecordVideoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD6BE321FC7BD8700C023FA /* SLRecordVideoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDD6BEAC1FC7F0D600C023FA /* SCTouchDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD6BEA61FC7F0D600C023FA /* SCTouchDetector.m */; };
+		FDD6BEAD1FC7F0D600C023FA /* DACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD6BEA71FC7F0D600C023FA /* DACircularProgressView.m */; };
+		FDD6BEAE1FC7F0D600C023FA /* SCRecordSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD6BEA81FC7F0D600C023FA /* SCRecordSessionManager.h */; };
+		FDD6BEAF1FC7F0D600C023FA /* SCRecordSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD6BEA91FC7F0D600C023FA /* SCRecordSessionManager.m */; };
+		FDD6BEB01FC7F0D600C023FA /* SCTouchDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD6BEAA1FC7F0D600C023FA /* SCTouchDetector.h */; };
+		FDD6BEB11FC7F0D600C023FA /* DACircularProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD6BEAB1FC7F0D600C023FA /* DACircularProgressView.h */; };
+		FDD6BEFC1FC8184E00C023FA /* README.MD in Resources */ = {isa = PBXBuildFile; fileRef = FDD6BEFB1FC8184E00C023FA /* README.MD */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11E9E5F59CF6239E19903486 /* Pods_SLRecordVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLRecordVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC0814D02B6064A8E7D654B /* Pods-SLRecordVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLRecordVideo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SLRecordVideo/Pods-SLRecordVideo.release.xcconfig"; sourceTree = "<group>"; };
+		FD0EF9981FD6280C00008360 /* btn_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_back@2x.png"; sourceTree = "<group>"; };
+		FD0EF9991FD6280C00008360 /* camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera@2x.png"; sourceTree = "<group>"; };
+		FDD6BE091FC7B65500C023FA /* SLRecordVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SLRecordVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD6BE0C1FC7B65500C023FA /* SLRecordVideo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLRecordVideo.h; sourceTree = "<group>"; };
+		FDD6BE0D1FC7B65500C023FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD6BE141FC7B67500C023FA /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FDD6BE311FC7BD8700C023FA /* SLRecordVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLRecordVideoViewController.m; sourceTree = "<group>"; };
+		FDD6BE321FC7BD8700C023FA /* SLRecordVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLRecordVideoViewController.h; sourceTree = "<group>"; };
+		FDD6BEA61FC7F0D600C023FA /* SCTouchDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTouchDetector.m; sourceTree = "<group>"; };
+		FDD6BEA71FC7F0D600C023FA /* DACircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DACircularProgressView.m; sourceTree = "<group>"; };
+		FDD6BEA81FC7F0D600C023FA /* SCRecordSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCRecordSessionManager.h; sourceTree = "<group>"; };
+		FDD6BEA91FC7F0D600C023FA /* SCRecordSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCRecordSessionManager.m; sourceTree = "<group>"; };
+		FDD6BEAA1FC7F0D600C023FA /* SCTouchDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTouchDetector.h; sourceTree = "<group>"; };
+		FDD6BEAB1FC7F0D600C023FA /* DACircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DACircularProgressView.h; sourceTree = "<group>"; };
+		FDD6BEFB1FC8184E00C023FA /* README.MD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
+		FEBEAB7AC8664763589CA74B /* Pods-SLRecordVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLRecordVideo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SLRecordVideo/Pods-SLRecordVideo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDD6BE051FC7B65500C023FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607543B72983219B06D0E8C7 /* Pods_SLRecordVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91E715582E8BC98F3FB247E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FEBEAB7AC8664763589CA74B /* Pods-SLRecordVideo.debug.xcconfig */,
+				CCC0814D02B6064A8E7D654B /* Pods-SLRecordVideo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F30F161C463AA8C480936D39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11E9E5F59CF6239E19903486 /* Pods_SLRecordVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDD6BDFF1FC7B65500C023FA = {
+			isa = PBXGroup;
+			children = (
+				FDD6BEFB1FC8184E00C023FA /* README.MD */,
+				FDD6BE141FC7B67500C023FA /* Podfile */,
+				FDD6BE0B1FC7B65500C023FA /* SLRecordVideo */,
+				FDD6BE0A1FC7B65500C023FA /* Products */,
+				91E715582E8BC98F3FB247E7 /* Pods */,
+				F30F161C463AA8C480936D39 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDD6BE0A1FC7B65500C023FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDD6BE091FC7B65500C023FA /* SLRecordVideo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDD6BE0B1FC7B65500C023FA /* SLRecordVideo */ = {
+			isa = PBXGroup;
+			children = (
+				FDD6BE1C1FC7BB1800C023FA /* Resource */,
+				FDD6BE161FC7B6B500C023FA /* SLRecordVideo */,
+				FDD6BE0D1FC7B65500C023FA /* Info.plist */,
+			);
+			path = SLRecordVideo;
+			sourceTree = "<group>";
+		};
+		FDD6BE161FC7B6B500C023FA /* SLRecordVideo */ = {
+			isa = PBXGroup;
+			children = (
+				FDD6BE0C1FC7B65500C023FA /* SLRecordVideo.h */,
+				FDD6BEAB1FC7F0D600C023FA /* DACircularProgressView.h */,
+				FDD6BEA71FC7F0D600C023FA /* DACircularProgressView.m */,
+				FDD6BEA81FC7F0D600C023FA /* SCRecordSessionManager.h */,
+				FDD6BEA91FC7F0D600C023FA /* SCRecordSessionManager.m */,
+				FDD6BEAA1FC7F0D600C023FA /* SCTouchDetector.h */,
+				FDD6BEA61FC7F0D600C023FA /* SCTouchDetector.m */,
+				FDD6BE321FC7BD8700C023FA /* SLRecordVideoViewController.h */,
+				FDD6BE311FC7BD8700C023FA /* SLRecordVideoViewController.m */,
+			);
+			path = SLRecordVideo;
+			sourceTree = "<group>";
+		};
+		FDD6BE1C1FC7BB1800C023FA /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FD0EF9981FD6280C00008360 /* btn_back@2x.png */,
+				FD0EF9991FD6280C00008360 /* camera@2x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FDD6BE061FC7B65500C023FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD6BE341FC7BD8700C023FA /* SLRecordVideoViewController.h in Headers */,
+				FDD6BE0E1FC7B65500C023FA /* SLRecordVideo.h in Headers */,
+				FDD6BEB11FC7F0D600C023FA /* DACircularProgressView.h in Headers */,
+				FDD6BEB01FC7F0D600C023FA /* SCTouchDetector.h in Headers */,
+				FDD6BEAE1FC7F0D600C023FA /* SCRecordSessionManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FDD6BE081FC7B65500C023FA /* SLRecordVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD6BE111FC7B65500C023FA /* Build configuration list for PBXNativeTarget "SLRecordVideo" */;
+			buildPhases = (
+				24DB70E4F2925AA9B1A6A686 /* [CP] Check Pods Manifest.lock */,
+				FDD6BE041FC7B65500C023FA /* Sources */,
+				FDD6BE051FC7B65500C023FA /* Frameworks */,
+				FDD6BE061FC7B65500C023FA /* Headers */,
+				FDD6BE071FC7B65500C023FA /* Resources */,
+				B7D8A902DF9153C264A0891D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLRecordVideo;
+			productName = SLRecordVideo;
+			productReference = FDD6BE091FC7B65500C023FA /* SLRecordVideo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDD6BE001FC7B65500C023FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "王胜龙";
+				TargetAttributes = {
+					FDD6BE081FC7B65500C023FA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FDD6BE031FC7B65500C023FA /* Build configuration list for PBXProject "SLRecordVideo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDD6BDFF1FC7B65500C023FA;
+			productRefGroup = FDD6BE0A1FC7B65500C023FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDD6BE081FC7B65500C023FA /* SLRecordVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDD6BE071FC7B65500C023FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD6BEFC1FC8184E00C023FA /* README.MD in Resources */,
+				FDD6BE151FC7B67500C023FA /* Podfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24DB70E4F2925AA9B1A6A686 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SLRecordVideo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7D8A902DF9153C264A0891D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SLRecordVideo/Pods-SLRecordVideo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDD6BE041FC7B65500C023FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD6BE331FC7BD8700C023FA /* SLRecordVideoViewController.m in Sources */,
+				FDD6BEAD1FC7F0D600C023FA /* DACircularProgressView.m in Sources */,
+				FDD6BEAF1FC7F0D600C023FA /* SCRecordSessionManager.m in Sources */,
+				FDD6BEAC1FC7F0D600C023FA /* SCTouchDetector.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FDD6BE0F1FC7B65500C023FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDD6BE101FC7B65500C023FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDD6BE121FC7B65500C023FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEBEAB7AC8664763589CA74B /* Pods-SLRecordVideo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9S48M97BU8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SLRecordVideo/Vender",
+				);
+				INFOPLIST_FILE = SLRecordVideo/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = wsl.SLRecordVideo;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDD6BE131FC7B65500C023FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCC0814D02B6064A8E7D654B /* Pods-SLRecordVideo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9S48M97BU8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SLRecordVideo/Vender",
+				);
+				INFOPLIST_FILE = SLRecordVideo/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = wsl.SLRecordVideo;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDD6BE031FC7B65500C023FA /* Build configuration list for PBXProject "SLRecordVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD6BE0F1FC7B65500C023FA /* Debug */,
+				FDD6BE101FC7B65500C023FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD6BE111FC7B65500C023FA /* Build configuration list for PBXNativeTarget "SLRecordVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD6BE121FC7B65500C023FA /* Debug */,
+				FDD6BE131FC7B65500C023FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDD6BE001FC7B65500C023FA /* Project object */;
+}
