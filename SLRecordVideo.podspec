@@ -20,12 +20,13 @@ s.description = '仿微信录制小视频'
 
 s.source_files = 'SLRecordVideo/SLRecordVideo/**/*'
 
-s.framework    = 'QuartzCore'
+s.framework    = 'UIKit'
 
 s.resources    = 'SLRecordVideo/Resource/**/*.{png,jpg}'
 
 s.dependency "SCRecorder"
 s.dependency "Masonry"
+s.dependency "SVProgressHUD"
 
 s.requires_arc = true
 
